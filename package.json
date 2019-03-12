@@ -16,7 +16,7 @@
     "bigint",
     "bignum"
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/LiskHQ/browserify-bignum"
   },
@@ -31,5 +31,8 @@
   "license": "MIT",
   "scripts": {
     "test": "node ./test/every-test.js"
+  },
+  "dependencies": {
+    "@types/node": "11.11.2"
   }
 }

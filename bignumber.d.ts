@@ -1,7 +1,7 @@
 /* tslint:disable:only-arrow-functions member-access readonly-keyword no-any */
 /// <reference types="node" />
 
-class BigNum {
+declare class BigNum {
 	/**
 	 * Create a new BigNum from a Buffer.
 	 *
@@ -109,7 +109,7 @@ class BigNum {
 
 export = BigNum;
 
-namespace BigNum {
+declare namespace BigNum {
 	/** Anything that can be converted to BigNum. */
 	type BigNumCompatible = BigNum | number | string;
 

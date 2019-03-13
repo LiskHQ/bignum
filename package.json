@@ -1,5 +1,5 @@
 {
-  "name": "@liskhq/bignumber",
+  "name": "@liskhq/bignum",
   "description": "A browserify implementation of node-bignum",
   "version": "1.3.0-2",
   "keywords": [
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/LiskHQ/browserify-bignum"
   },
-  "main": "bignumber",
+  "main": "bignum",
   "author": {
     "name": "Luke Young",
     "email": "luke@hydrantlabs.com"

@@ -1,4 +1,4 @@
-# browserify-bignum #
+# @liskhq/bignum #
 
 A JavaScript implementation of [node-bignum](https://github.com/justmoon/node-bignum) forked from the wonderful work done by MikeMcl as [bignumber.js](https://github.com/MikeMcl/bignumber.js)
 

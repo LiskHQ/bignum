@@ -47,6 +47,9 @@ declare class BigNum {
 	/** Return a boolean: whether the instance value is equal to n (== n). */
 	eq(n: BigNum.BigNumCompatible): boolean;
 
+	/** Return a new BigNumber rounded to a whole number in the direction of -Infinity. */
+	floor(): BigNum;
+
 	/** Return a boolean: whether the instance value is greater than or equal to n (>= n). */
 	ge(n: BigNum.BigNumCompatible): boolean;
 
